@@ -5,6 +5,6 @@ class Dog < Formula
   sha256 "f584e9d074b5d08a3e2cd5707cfa8961cc3dfa27102a78cc287f86dd061cd2fe"
 
   def install
-    prefix.install "darwin_amd64/dog"
+    prefix.install "dist/darwin_amd64/dog"
   end
 end
